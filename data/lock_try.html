@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>固定メニュー試し</title>
+    <style>
+      .menu {
+        display: flex;
+        position: fixed;
+        width:100%;
+        /* width: 70%;
+        background: white; */
+        bottom: 0px; /*自分が固定したい位置(例は上から0pxの位置)*/
+        left: 10px; /*自分が固定したい位置(例は左から10pxの位置)*/
+      }
+      .t_menu {
+        width: 25%;
+        height: 100px;
+        background: blue;
+      }
+
+      /* ページ構成用 */
+            
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+  align-items: center;
+  padding: 0 20px;
+  background: #fac344;
+}
+
+
+           .header1{
+        
+                    display: flex;
+                    justify-content: space-between;
+}
+
+        .logo {
+          font-size: 30px;
+          margin: 0 auto;
+        }
+
+    
+    .info_title {
+            position: relative;
+            font-size: 26.357142857143px;
+        }
+
+        .announcement {
+            position: relative;
+            font-size: 18.45px;
+        }
+
+        .poster {
+            width: 100%;
+        }
+
+        .befor_info {
+            width: 100%;
+            margin: 0 auto;
+        }
+            
+.title {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .text1 {
+            font-size: 35px;
+        }
+
+        .layout {
+            line-height: 20px;
+        }
+
+        .layout_title {
+            font-size: 28px;
+        }
+
+        .date {
+            line-height: 10px;
+        }
+
+
+        .place_text {
+            /* width: 270px; */
+            line-height: 10px;
+        }
+
+        .data {
+            width: 280px;
+            margin: auto;
+        }
+        
+    .announce01{
+        width: 230px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    
+        
+    .announce02{
+        width: 319px;
+        font-size: 18.45px;
+        margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">鉄道模型で遊ぼう</div>
+    </header>
+
+    <div class="info_title">
+      第二回鉄道模型で遊ぼう <br />
+      2025年3月29,30日開催！！
+    </div>
+
+    <p class="layout_title">各レイアウトにて <br />無料運転体験あり!</p>
+
+    <div class="layout">
+      <p>
+        車両の持ち込みOK<br />
+        車両を持っていなくても<br />
+        用意している車両から<br />
+        好きな車両を選んで<br />
+        走らせられます
+      </p>
+    </div>
+
+    
+        <div class="place">
+            <div>　</div>
+            <div class="place_text">
+                <p class="title">場所</p>
+                <p>遠軽町芸術文化交流プラザ</p>
+                <p>メトロプラザ2F多目的室4・5</p>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.1807237712064!2d143.517969276063!3d44.05897667108584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f12a1305c4d097b%3A0xb256d5c14fb15c6d!2z6YGg6Lu955S66Iq46KGT5paH5YyW5Lqk5rWB44OX44Op44K2IOODoeODiOODreODl-ODqeOCtg!5e0!3m2!1sja!2sjp!4v1707444218871!5m2!1sja!2sjp" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="menu">
+      <div class="t_menu">TOP</div>
+      <div class="t_menu">Nゲージ</div>
+      <div class="t_menu">車両紹介</div>
+      <div class="t_menu">主催・協力</div>
+    </div>
+    <div style="height: 100px"></div>
+  </body>
+</html>
