@@ -19,7 +19,7 @@ include("../elements/windowsize_checker.php");
 
 include("../elements/bulk_css.php");
 include("../elements/header.php");
-include("elements/footer.php");
+include("../elements/footer.php");
 
 //メニュー
 include("../elements/menu.php");
@@ -35,16 +35,6 @@ if ($_SESSION["size_turn"] == 1) {
     $_SESSION["hnum"] = "0";
 }
 
-// $i = 0;
-// while (true) {
-//     echo date("Y/m/d H:i:s");
-//     echo '<br/>';
-//     sleep(5);
-//     $i = $i + 1;
-//     if ($i == 5) {
-//         break;
-//     }
-// }
 
 ?>
 <!DOCTYPE html>
@@ -59,6 +49,7 @@ if ($_SESSION["size_turn"] == 1) {
         <?= $css ?>
     </style>
     <link rel="stylesheet" href="../bulk.css">
+    <link rel="stylesheet" href="workshop.css">
 </head>
 
 <body>
@@ -74,7 +65,23 @@ if ($_SESSION["size_turn"] == 1) {
         ミニジオラマ制作ワークショップ
     </div>
 
-
+    <div>
+        <p>
+            日時：3月29日（日）10:00～16:00
+        </p>
+        <p>
+            場所：多目的室6
+        </p>
+        <p>
+            材料費：2,500円
+        </p>
+        <p>
+            所要時間：約90～120分
+        </p>
+        <p>
+            参加方法：予約優先（予約開始はページ公開後）/先着順（先着20組）
+        </p>
+    </div>
 
     <div style="height: 10px"></div>
 
@@ -88,7 +95,7 @@ if ($_SESSION["size_turn"] == 1) {
         // クリックイベントを設定
         function handleClick(hnum) {
             // 非同期リクエスト送信 (Ajax)
-            fetch('elements/process.php', {
+            fetch('../elements/process.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'
