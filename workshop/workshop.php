@@ -105,7 +105,16 @@ if ($_SESSION["size_turn"] == 1) {
             <div class="img"><img src="img/sample5.png" alt=""></div>
         </div>
         <div class="img_box">
-            <div class="img"><img src="img/sample6.png" alt=""></div>
+            <div class="img"><img src="img/sample6.jpg" alt=""></div>
+        </div>
+    </div>
+    <div>　</div>
+    <div class="img_flex">
+        <div class="img_box">
+            <div class="img"><img src="img/sample7.jpg" alt=""></div>
+        </div>
+        <div class="img_box">
+            <div class="img"><img src="img/sample8.jpg" alt=""></div>
         </div>
     </div>
 
