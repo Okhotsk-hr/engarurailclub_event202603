@@ -18,6 +18,7 @@ include("../elements/windowsize_checker.php");
 //echo "ブラウザの幅は" . $_SESSION["windowsize"];
 
 include("../elements/bulk_css.php");
+include("workshop_css.php");
 include("../elements/header.php");
 include("../elements/footer.php");
 
@@ -66,17 +67,47 @@ if ($_SESSION["size_turn"] == 1) {
     </div>
 
     <div>
-        <p>
+        <p class="ws_info">
             日時：3月29日（日）10:00～16:00 <br>
             場所：多目的室6<br>
             材料費：2,500円<br>
             所要時間：約90～120分<br>
             参加方法：予約（ <a href="https://forms.gle/KxTqsWzT3uwKq3D79">予約フォーム</a> ） <br>
             　　　　　当日先着順（先着20組）<br>
+            実施：<a href="https://yh-sapporo.jp/">一般財団法人 北海道青年会館</a> <br>
+            　　　<a href="https://sites.google.com/view/doushakyoushi/">北海道社会教育士会</a>
         </p>
     </div>
 
-    <div style="height: 10px"></div>
+    <div>
+        ミニジオラマ制作例
+    </div>
+    <div class="img_flex">
+        <div class="img_box">
+            <div class="img"><img src="img/sample1.png" alt=""></div>
+        </div>
+        <div class="img_box">
+            <div class="img"><img src="img/sample2.png" alt=""></div>
+        </div>
+    </div>
+    <div>　</div>
+    <div class="img_flex">
+        <div class="img_box">
+            <div class="img"><img src="img/sample3.png" alt=""></div>
+        </div>
+        <div class="img_box">
+            <div class="img"><img src="img/sample4.png" alt=""></div>
+        </div>
+    </div>
+    <div>　</div>
+    <div class="img_flex">
+        <div class="img_box">
+            <div class="img"><img src="img/sample5.png" alt=""></div>
+        </div>
+        <div class="img_box">
+            <div class="img"><img src="img/sample6.png" alt=""></div>
+        </div>
+    </div>
 
     <?= $footer ?>
 
