@@ -2,6 +2,7 @@
 if ($_SESSION["windowsize"] >= 500) {
 
   $footer = '
+    <div style="height: 10px"></div>
     <footer>
         <div style="font-size: 20px;">鉄道模型で遊ぼう2026</div>
         <div>
@@ -22,6 +23,7 @@ if ($_SESSION["windowsize"] >= 500) {
         ';
 } else {
   $footer = '
+    <div style="height: 10px"></div>
     <footer>
         <div style="font-size: 20px;">鉄道模型で遊ぼう2026</div>
         <div>

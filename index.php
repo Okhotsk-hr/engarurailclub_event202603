@@ -104,10 +104,6 @@ if ($_SESSION["size_turn"] == 1) {
     </div>
     </div>
 
-
-
-    <div style="height: 10px"></div>
-
     <?= $footer ?>
 
     <div style="height: 100px"></div>
