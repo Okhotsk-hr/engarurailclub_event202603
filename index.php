@@ -20,6 +20,7 @@ include("elements/windowsize_checker.php");
 include("elements/bulk_css.php");
 include("elements/header.php");
 include("elements/footer.php");
+include("elements/scroll_menu.php");
 
 //メニュー
 include("elements/menu.php");
@@ -70,6 +71,10 @@ if ($_SESSION["size_turn"] == 1) {
 
     <?= $windowcheck ?>
 
+
+    <!-- 見やすく一時的に上で -->
+    <?= $scroll_menu ?>
+
     <div class="info_title">
         第三回鉄道模型で遊ぼう <br />
         2026年3月28,29日開催！！
@@ -103,6 +108,8 @@ if ($_SESSION["size_turn"] == 1) {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.1807237712064!2d143.517969276063!3d44.05897667108584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f12a1305c4d097b%3A0xb256d5c14fb15c6d!2z6YGg6Lu955S66Iq46KGT5paH5YyW5Lqk5rWB44OX44Op44K2IOODoeODiOODreODl-ODqeOCtg!5e0!3m2!1sja!2sjp!4v1707444218871!5m2!1sja!2sjp" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </div>
+
+
 
     <?= $footer ?>
 

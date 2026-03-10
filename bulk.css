@@ -26,6 +26,35 @@
   font-size: 26.357142857143px;
 } */
 
+.scroll {
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+  background: #eeeeee;
+}
+
+.scroll_content:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  /* margin-bottom: 8px; */
+  padding-bottom: 8px;
+}
+
+.scroll_content {
+  padding: 8px;
+}
+
+.scroll_title {
+  font-size: 20px;
+}
+
+.scroll_date {
+  font-size: 14px;
+}
+
+.scroll_space {
+  height: 10px;
+}
+
 .announcement {
   position: relative;
   font-size: 18.45px;
