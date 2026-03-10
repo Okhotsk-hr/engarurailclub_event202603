@@ -13,9 +13,6 @@ if (!isset($_SESSION["save"])) {
 
 $file_name = 'index.php';
 include("elements/windowsize_checker.php");
-//echo "ブラウザの幅は" . $_SESSION["windowsize"];
-
-//echo "ブラウザの幅は" . $_SESSION["windowsize"];
 
 include("elements/bulk_css.php");
 include("elements/header.php");
@@ -71,10 +68,6 @@ if ($_SESSION["size_turn"] == 1) {
 
     <?= $windowcheck ?>
 
-
-    <!-- 見やすく一時的に上で -->
-    <?= $scroll_menu ?>
-
     <div class="info_title">
         第三回鉄道模型で遊ぼう <br />
         2026年3月28,29日開催！！
@@ -82,18 +75,8 @@ if ($_SESSION["size_turn"] == 1) {
 
     <img src="poster.png" alt="" width="100%" />
 
-    <!-- <p class="layout_title">各レイアウトにて <br />無料運転体験あり!</p>
-
-    <div class="layout">
-        <p>
-            車両の持ち込みOK<br />
-            車両を持っていなくても<br />
-            レンタル車両から<br />
-            好きな車両を選んで<br />
-            走らせられます
-        </p>
-    </div> -->
-
+    <!-- イベントお知らせ/サイト更新情報 -->
+    <?= $scroll_menu ?>
 
     <div class="place">
         <div>　</div>
