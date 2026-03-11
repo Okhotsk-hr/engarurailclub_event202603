@@ -170,6 +170,7 @@ if ($_SESSION["windowsize"] >= 500) {
     ';
 }
 
+
 // //最初の表示
 // for ($i = 0; $i <= count($v_list) - 1; $i++) {
 //     if ($i % 4 == 0 && $_SESSION["windowsize"] >= 900) {

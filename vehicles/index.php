@@ -19,6 +19,7 @@ include("../elements/windowsize_checker.php");
 
 include("../elements/bulk_css.php");
 include("../elements/header.php");
+include("../elements/footer.php");
 
 //include("../elements/base_announcement.php");
 
@@ -51,6 +52,19 @@ include("first_search.php");
 //     }
 // }
 
+// v_cardsが空または未定義なら検索フォームにimgを自動入力して送信
+if (!isset($_SESSION["v_cards"]) || $_SESSION["v_cards"] === "") {
+    echo '<script>
+        window.onload = function() {
+            var input = document.getElementById("searchValue");
+            if(input) {
+                input.value = "img";
+                document.forms[0].submit();
+            }
+        };
+    </script>';
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +87,7 @@ include("first_search.php");
     </header>
 
     <form method="post" action="search.php">
-        <label for="searchValue">検索する文字を入力してください:</label>
+        <label for="searchValue">検索する文字をキーワードしてください:</label><br>
         <input type="text" id="searchValue" name="searchValue" maxlength="10    " required>
         <button type="submit">検索</button>
     </form>
