@@ -1,9 +1,9 @@
 <?php
 $menu_list = [
-    ["TOP", "http://localhost/code/event202603/00remake/", "l_top()"],
-    ["車両紹介", "http://localhost/code/event202603/00remake/n", "l_aboutn()"],
+    ["TOP", "http://localhost/code/engarurailclub/event202603//", "l_top()"],
+    ["車両紹介", "http://localhost/code/engarurailclub/event202603/vehicles/", "l_aboutn()"],
     ["ジオラマワークショップ", "http://localhost/code/engarurailclub/event202603/workshop/workshop.php", "l_vehicles()"],
-    ["～～～～", "http://localhost/code/event202603/00remake/member", "l_member()"]
+    ["～～～～", "http://localhost/code/engarurailclub/event202603/00remake/member", "l_member()"]
 ];
 
 if (count($menu_list) == 4) {
@@ -27,8 +27,8 @@ if (count($menu_list) == 4) {
         }
 
         function ' . $menu_list[1][2] . ' {
-            alert("近日公開");
-            //window.location.href = "' . $menu_list[1][1] . '";
+            //alert("近日公開");
+            window.location.href = "' . $menu_list[1][1] . '";
         }
 
         function ' . $menu_list[2][2] . ' {

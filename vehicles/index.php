@@ -20,6 +20,8 @@ include("../elements/windowsize_checker.php");
 include("../elements/bulk_css.php");
 include("../elements/header.php");
 include("../elements/footer.php");
+//メニュー
+include("../elements/menu.php");
 
 //include("../elements/base_announcement.php");
 
@@ -77,6 +79,7 @@ if (!isset($_SESSION["v_cards"]) || $_SESSION["v_cards"] === "") {
     <style>
         <?= $css ?><?= $_SESSION["css"] ?>
     </style>
+    <link rel="stylesheet" href="../bulk.css">
 </head>
 
 <body>
@@ -98,35 +101,11 @@ if (!isset($_SESSION["v_cards"]) || $_SESSION["v_cards"] === "") {
     <!-- <?= $_SESSION["wordresult"] ?> -->
     <?= $_SESSION["v_cards"] ?>
 
+    <?= $footer ?>
 
-    <?php
-    // if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    //     // フォームから入力を取得
-    //     $_SESSION["searchword"] = $_POST["searchValue"];
-    //     include("search.php");
-    //     echo "    <script>
-    //     alert('" . $_SESSION["searchword"] . "');
-    //     //location.reload();
-    //     // window.location.href ='index.php';
-    //     //alert('c');
-    // </script>";
-    // if ($reload) {
-    //     $reload = false;
-    //     echo "    <script>
-    //     //alert('" . $_SESSION["searchword"] . "');
-    //     location.reload();
-    //     // window.location.href ='index.php';
-    //     //alert('c');
-    // </script>";
-    // } else {
-    //     //$reload = true;
-    // }
-    // }
+    <div style="height: 100px"></div>
 
-
-    ?>
-
-    <?= $windowcheck ?>
+    <?= $menu_show ?>
     <script>
         // クリックイベントを設定
         function handleClick(hnum) {
@@ -146,6 +125,8 @@ if (!isset($_SESSION["v_cards"]) || $_SESSION["v_cards"] === "") {
 
                 });
         }
+
+        <?= $menu_js ?>
     </script>
 </body>
 
