@@ -9,6 +9,10 @@ $_SESSION["v_cards"] = "";
 // フォームから入力を取得
 $_SESSION["searchword"] = $_POST["searchValue"];
 $result_lines = [];
+
+//機能充実のために検索単語を保存
+include("../db/vehicles_save.php");
+
 // echo "    <script>
 //         alert('" .  $_POST["searchValue"] . "');
 //     </script>";

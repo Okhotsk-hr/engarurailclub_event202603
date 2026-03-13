@@ -1,4 +1,5 @@
 <?php
+//使ってないファイル？
 //主催・協力黒--
 // アイコン消す
 // 枠と写真同じ幅:::優先できた
@@ -150,12 +151,19 @@ if ($_SESSION["windowsize"] >= 500) {
 
 
 for ($i = 0; $i <= count($v_list) - 1; $i++) {
-    if ($i % 4 == 0 && $_SESSION["windowsize"] >= 900) {
+    // if ($i % 4 == 0 && $_SESSION["windowsize"] >= 900) {
+    //     $v_cards .= '
+    //     <div>　</div>
+    //     <div class="card_step">';
+    // } else if ($i % 2 == 0 && $_SESSION["windowsize"] < 900) {
+    //     $v_cards .= '
+    //     <div>　</div>
+    //     <div class="card_step">
+    //     ';
+    // }
+    if ($i % 2 == 0) {
         $v_cards .= '
-        <div>　</div>
-        <div class="card_step">';
-    } else if ($i % 2 == 0 && $_SESSION["windowsize"] < 900) {
-        $v_cards .= '
+        <div>あああ</div>
         <div>　</div>
         <div class="card_step">
         ';
@@ -206,11 +214,16 @@ for ($i = 0; $i <= count($v_list) - 1; $i++) {
 
     ';
 
-    if ($i % 4 == 3 && $_SESSION["windowsize"] >= 900) {
-        $v_cards .= '</div>
-        <div style="font-size:5px">　</div>
-        ';
-    } else if ($i % 2 == 1 && $_SESSION["windowsize"] < 900) {
+    // if ($i % 4 == 3 && $_SESSION["windowsize"] >= 900) {
+    //     $v_cards .= '</div>
+    //     <div style="font-size:5px">　</div>
+    //     ';
+    // } else if ($i % 2 == 1 && $_SESSION["windowsize"] < 900) {
+    //     $v_cards .= '</div>
+    //     <div style="font-size:5px">　</div>
+    //     ';
+    // }
+    if ($i % 2 == 1) {
         $v_cards .= '</div>
         <div style="font-size:5px">　</div>
         ';
