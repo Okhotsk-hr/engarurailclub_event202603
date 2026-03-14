@@ -1,10 +1,13 @@
 <?php
 $event_info = [
+    ["2026/03/13", "車両紹介ページを公開しました", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/06", "ミニジオラマ製作ワークショップを開催します", "http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php"],
     ["2026/02/24", "第三回鉄道模型で遊ぼうを開催します", "http://engarumrhall.s322.xrea.com/event202603/"]
 ];
 
 $release_info = [
+    ["2026/03/15", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
+    ["2026/03/13", "車両紹介ページ公開", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/10", "イベントお知らせ/サイト更新情報一覧の表示を追加", ""],
     ["2026/03/06", "ワークショップページ公開", "http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php"],
     ["2026/02/24", "第三回鉄道模型で遊ぼうイベントサイト公開", "http://engarumrhall.s322.xrea.com/event202603/"]
