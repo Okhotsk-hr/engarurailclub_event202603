@@ -232,7 +232,7 @@ for ($i = 0; $i <= count($result_lines) - 1; $i++) {
             <div style="font-size:5px">　</div>
   
 
-            <div class="n_text" style="text-align: center;">' . $v_list[$result_lines[$i]][4] . '　' . $v_list[$i][5] . '</div>
+            <div class="n_text" style="text-align: center;">' . $v_list[$result_lines[$i]][4] . '　' . $v_list[$result_lines[$i]][5] . '</div>
             <div class="n_text">' . $v_list[$result_lines[$i]][6] . '</div>
             <!--<table border="1" class="tables">
                 <tr>

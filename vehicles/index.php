@@ -90,7 +90,7 @@ if (!isset($_SESSION["v_cards"]) || $_SESSION["v_cards"] === "") {
     </header>
 
     <form method="post" action="search.php">
-        <label for="searchValue">検索する文字をキーワードしてください:</label><br>
+        <label for="searchValue">検索するキーワードを入力してください:</label><br>
         <input type="text" id="searchValue" name="searchValue" maxlength="10    " required>
         <button type="submit">検索</button>
     </form>
