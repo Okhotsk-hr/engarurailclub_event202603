@@ -6,7 +6,7 @@ $event_info = [
 ];
 
 $release_info = [
-    ["2026/03/15", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
+    ["2026/03/16", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/13", "車両紹介ページ公開", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/10", "イベントお知らせ/サイト更新情報一覧の表示を追加", ""],
     ["2026/03/06", "ワークショップページ公開", "http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php"],
