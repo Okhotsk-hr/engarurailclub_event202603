@@ -1,4 +1,15 @@
 0"番号", 1"画像URL", 2"キーワード1", 3"車両名", 4"両数", 5"メーカー/製品番号",6"説明",7"詳細リンク",8"アイコン"
+
+0, "img/h5.jpg", "公開00,", "", "両", "TOMIX:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "KATO:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "マイクロエース:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "TOMIX:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "TOMIX:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "KATO:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "TOMIX:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+0, "img/h5.jpg", "公開00,", "", "両", "KATO:", "", "", "http://www.trainfrontview.net/b/e655sp.png"
+
+
 2005, "img/star.jpg", "新幹線,", "E4系MAX", "8/16両", "TOMIX:97947", "オール2階建て新幹線の2代目として登場したE4系。「MAX」の愛称で親しまれ、東北新幹線や上越新幹線、北陸新幹線など各地を走りました。<br>車両は2021年に引退した時のラストラン装飾です。", "", "http://www.trainfrontview.net/b/e4n.png"
 2006, "img/ok.jpg", "新幹線,はやぶさ,はやて", "H5系", "10両", "TOMIX:92566/ 92567/ 92568", "", "", "http://www.trainfrontview.net/b/h5.png"
 2007, "img/e6.jpg", "新幹線,こまち,スーパーこまち", "E6系", "7両", "TOMIX:92489/92490", "", "", "http://www.trainfrontview.net/b/e6.png"
