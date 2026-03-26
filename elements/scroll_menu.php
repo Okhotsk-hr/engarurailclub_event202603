@@ -1,5 +1,6 @@
 <?php
 $event_info = [
+    ["2026/03/26", "北海道新幹線開業10周年", "https://x.com/engarumrhall/status/2037045829811482998?s=20"],
     ["2026/03/20", "イベントに関するリクエストを募集します", "https://t.co/rzDB0sdjKt"],
     ["2026/03/13", "車両紹介ページを公開しました", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/06", "ミニジオラマ製作ワークショップを開催します", "http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php"],
