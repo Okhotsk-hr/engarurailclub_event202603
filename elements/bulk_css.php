@@ -56,8 +56,7 @@ body{
 
 .info_title {
   position: relative;
-  font-size: 26.357142857143px;
-  width:330px;
+  font-size: 29px;
   margin: 0 auto;
 }
 
@@ -115,7 +114,7 @@ body{
 
 .info_title {
   position: relative;
-  font-size: 26.357142857143px;
+  font-size: ' . ($_SESSION["windowsize"] / 17) . 'px;
 }
 
 

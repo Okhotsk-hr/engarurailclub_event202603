@@ -69,9 +69,18 @@ if ($_SESSION["size_turn"] == 1) {
     <?= $windowcheck ?>
 
     <div class="info_title">
-        第三回鉄道模型で遊ぼう <br />
-        2026年3月28,29日開催！！
+        第三回鉄道模型で遊ぼう１日目！ <br>
+        <a href="https://forms.gle/ua3uq7vQXo8tJTmy5">アンケートへご協力お願いします。</a>
     </div>
+
+    <div>　</div>
+
+    <div class="info_title">
+        <a href="http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php">ミニジオラマ製作ワークショップ <br>予約受付中！</a>
+    </div>
+
+    <div>　</div>
+
 
     <img src="poster.png" alt="" width="100%" />
 
