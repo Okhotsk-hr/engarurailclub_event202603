@@ -1,5 +1,6 @@
 <?php
 $event_info = [
+    ["2026/08/15", "イベントレポート公開", "http://engarumrhall.s322.xrea.com/event202603/report/report.php"],
     ["2026/03/28", "ミニジオラマ製作ワークショップ予約受付中！", "http://engarumrhall.s322.xrea.com/event202603/workshop/workshop.php"],
     ["2026/03/28", "第三回鉄道模型で遊ぼう1日目！<br>アンケートへのご協力お願いします", "https://forms.gle/ua3uq7vQXo8tJTmy5"],
     ["2026/03/26", "北海道新幹線開業10周年", "https://x.com/engarumrhall/status/2037045829811482998?s=20"],
@@ -10,6 +11,7 @@ $event_info = [
 ];
 
 $release_info = [
+    ["2026/08/15", "イベントレポート公開", "http://engarumrhall.s322.xrea.com/event202603/report/report.php"],
     ["2026/03/26", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/25", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
     ["2026/03/24", "車両紹介を追加", "http://engarumrhall.s322.xrea.com/event202603/vehicles/"],
